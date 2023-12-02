@@ -4,7 +4,7 @@ This repository contains functions to calculate and visualize the probability de
 
 ## Theoretical Background
 
-The probability density $|\Psi|^2$ of the hydrogen atom's electron is calculated using the wave function $\Psi$, which is a product of the radial and angular parts. The radial part depends on the principal and azimuthal quantum numbers \( n \) and \( l \), while the angular part depends on the azimuthal and magnetic quantum numbers \( l \) and \( m \).
+The probability density $|\Psi|^2$ of the hydrogen atom's electron is calculated using the wave function $\Psi$, which is a product of the radial and angular parts. The radial part depends on the principal and azimuthal quantum numbers `n` and `l`, while the angular part depends on the azimuthal and magnetic quantum numbers `l` and `m`.
 
 ### Radial Part
 
@@ -12,7 +12,7 @@ The radial part of the wave function is given by:
 
 $$ R_{nl}(r) = \sqrt{\left(\frac{2}{n a_0}\right)^3 \frac{(n-l-1)!}{2n[(n+l)!]^3}} e^{- \frac{r}{n a_0}} \left(\frac{2r}{n a_0}\right)^l L_{n-l-1}^{2l+1}\left(\frac{2r}{n a_0}\right) $$
 
-where \( L \) are the generalized Laguerre polynomials and $a_0$ is the Bohr radius.
+where `L` are the generalized Laguerre polynomials and $a_0$ is the Bohr radius.
 
 ### Angular Part
 
